@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple project | Color switcher</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+    }
+
+    .color-container {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .color-container .button {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: transform 0.2s;
+    }
+
+    .color-container .button:hover {
+      transform: scale(1.1);
+    }
+
+    #yellow {
+      background-color: yellow;
+      border: 1px solid black;
+    }
+
+    #blue {
+      background-color: blue;
+      border: 1px solid black;
+    }
+
+    #green {
+      background-color: green;
+      border: 1px solid black;
+    }
+
+    #red {
+      background-color: red;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="color-container">
+    <h1>color Switcher</h1>
+    <span class="button" id="yellow"></span>
+    <span class="button" id="blue"></span>
+    <span class="button" id="green"></span>
+    <span class="button" id="red"></span>
+
+    <h2>Click on perticular box to change the background</h2>
+  </div>
+
+
+
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
